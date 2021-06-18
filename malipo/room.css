@@ -1,0 +1,22 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+/*?body{background-color: #fefe44;}*/
+nav {height: 60px;width: 100%;background-color: aquamarine;display: flex;flex-flow: column;}
+ ul{display: block;margin-left: 20px;}
+ ul li{outline: none; display: block; border-right:2px solid gold ;line-height:  70px;}
+ ul li a{text-decoration: none;display: block;font-size: 18px;float:left;padding: 0 20px;}
+ ul li:hover{background-color: lightblue;}
+ ul li a:hover{color: honeydew;}
+ .container{top:60px;width:90%;height:80%;background: #254;display: flex;flex-flow: column;padding: 20px; margin: 12px;bottom: 0;}
+ section{height: 100%;top:60px;width: 100%;;display: block;background-color: coral;}
+ 
+ #home{background-color: lightskyblue;}
+ #results{background-color: rgb(39, 151, 221);}
+ #contacts{background-color: rgb(160, 7, 45);}
+ #economy{background-color: rgb(120, 248, 16);} 
+ /* BUTTONS*/
+ .btn{color:#fff;text-decoration: none;padding: 8 25px;border-radius: 25px;margin: 0 10px;}
+ .primary{background-color: #2196F3;}
+ .danger{background-color: #E91E63;}
+ .dark{background-color: #607D88;}
+ .success{background-color: #4CAF50;}
+ .action{background-color: #CDDC39;}

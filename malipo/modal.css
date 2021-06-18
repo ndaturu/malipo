@@ -1,0 +1,65 @@
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    opacity: 0.63;
+  }
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  /* The Close Button */
+  .close , .add{
+    color: white;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .add{color: rgb(7, 7, 7);
+}
+  .close:hover,
+  .close:focus {
+    color: rgb(34, 39, 39);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .add:hover,
+  .add:focus {
+    color: #04d3f8;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-header {
+    padding: 2px 16px;
+    height: 60px;
+    /* opacity: 0.9; */
+  background-color: rgba(199, 187, 221, 0.9);background-color: cornflowerblue;
+    color: white;
+  }
+  .modal-body {padding: 2px 16px;}
+  .modal-footer {
+  height: 30px;
+    padding: 2px 16px;
+    background-color: rgba(174, 176, 190, 0.89);
+    color: rgb(3, 3, 3);
+  }
+  /* BUTTONS*/
+  .btn{color:#fff;text-decoration: none;padding: 8 25px;border-radius: 25px;margin: 0 10px;}
+.primary{background-color: #2196F3;}
+.danger{background-color: #E91E63;}
+.dark{background-color: #607D88;}
+.success{background-color: #4CAF50;}
+.action{background-color: #CDDC39;}
